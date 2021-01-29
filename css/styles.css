@@ -1,0 +1,104 @@
+/* Colors
+#264653 - charcoal
+#2A9D8F - persian green
+#E9C46A - orange yellow crayola
+#F4A261 - sandy brown
+#E76F51 - burnt sienna
+-------------------------------------*/ 
+
+
+
+/* Global Styles
+--------------------------------------*/
+
+body {
+    color: #264653;
+}
+
+img {width:300px;
+
+}
+
+a{ 
+    color: #264653;
+}
+
+a:hover{
+    text-decoration: none;
+    
+}
+
+
+/* Profile
+--------------------------------------*/
+
+
+header {
+    background-color: #2A9D8f;
+}
+
+
+
+
+/* Projects
+--------------------------------------*/
+
+.projects {
+    background-color: #E9C46A;
+}
+
+
+
+
+
+
+
+/* Work Experience
+--------------------------------------*/
+
+.work-experience {
+    background-color: #F4A261;
+}
+
+
+
+
+
+
+
+
+/* Education
+--------------------------------------*/
+
+.education {
+    background-color: #E76F51;
+}
+
+
+
+
+
+
+
+/* Contact
+--------------------------------------*/
+
+footer{
+    background-color:#264653;
+    color:#E9C46A
+   
+}
+
+footer a{
+    color:#264653;
+    background:#E9C46A;
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 4px;
+
+}
+
+.contact {
+    line-height: 300%;
+}
+

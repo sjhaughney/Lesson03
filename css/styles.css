@@ -10,24 +10,50 @@
 
 /* Global Styles
 --------------------------------------*/
+html{
+    box-sizing: border-box;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
 
 body {
     color: #264653;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
 }
 
 img {width:300px;
-
 }
-
 a{ 
     color: #264653;
 }
-
 a:hover{
     text-decoration: none;
-    
+   
 }
+h1{
+    font-size: 90px;
+    line-height: 1;
+    text-shadow: 2px 2px;
+}
+h2{
+ 
+    font-size: 45px;
+}
+h1, h2 {
+    font-family: 'Paytone One', sans-serif;
+    margin: 0;
 
+}
+.content-wrap{
+    width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
 
 /* Profile
 --------------------------------------*/
@@ -37,21 +63,24 @@ header {
     background-color: #2A9D8f;
 }
 
-
-
-
 /* Projects
 --------------------------------------*/
 
 .projects {
     background-color: #E9C46A;
 }
-
-
-
-
-
-
+.project-item{
+    overflow: hidden;
+    border-bottom: 1px dashed #264653;
+    padding: 25px 0;
+}
+.project-item img {
+    float:left;
+    margin-right: 20px;
+}
+.project-item h3{
+    margin: 0;
+}
 
 /* Work Experience
 --------------------------------------*/
@@ -60,13 +89,6 @@ header {
     background-color: #F4A261;
 }
 
-
-
-
-
-
-
-
 /* Education
 --------------------------------------*/
 
@@ -74,30 +96,20 @@ header {
     background-color: #E76F51;
 }
 
-
-
-
-
-
-
 /* Contact
 --------------------------------------*/
 
 footer{
     background-color:#264653;
     color:#E9C46A
-   
 }
-
 footer a{
     color:#264653;
     background:#E9C46A;
     padding: 8px;
     text-decoration: none;
     border-radius: 4px;
-
 }
-
 .contact {
     line-height: 300%;
 }
